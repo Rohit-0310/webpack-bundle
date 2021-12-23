@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpack</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="build/bundle.js"></script>
+
+    <form>
+        <label>Title</label>
+        <input id="name" type="text" />
+        <label>More Info</label>
+        <input id="quantity" type="text" />
+        <label>Priority</label>
+        <select id="priority">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+        <input type="submit" value="Submit" />
+    </form>
+    <hr/>
+    <table>
+        <tr>
+            <td>SI. No.</td>
+            <td>Title</td>
+            <td>More Info</td>
+            <td>Priority</td>
+            <td>Done</td>
+            <td>Remove</td>
+        </tr>
+    </table>
+</body>
+</html>
